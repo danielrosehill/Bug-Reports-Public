@@ -7,6 +7,8 @@
 
 This report documents severe performance degradation on a system that appears to be directly caused by a memory leak in the IDE application version 1.10.5. After thorough diagnostics, it was identified that the application processes are consuming extraordinary amounts of system resources, with a single renderer process allocating over 1TB of virtual memory and using 238.5% CPU.
 
+![alt text](screenshots/1.png)
+
 ## System Information
 
 - **OS:** Ubuntu 25.04 (Plucky)
