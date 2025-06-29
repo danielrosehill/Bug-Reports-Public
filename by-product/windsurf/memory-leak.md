@@ -1,7 +1,7 @@
 # Bug Report: Severe Memory Leak in IDE Application
 
 **Date:** June 30, 2025  
-**Subject:** Critical Bug Report: Memory Leak in IDE Application (Ubuntu 25.04)
+**Subject:** Memory Leak in IDE Application (Ubuntu 25.04)
 
 ## Issue Description
 
@@ -84,7 +84,7 @@ Jun 30 00:09:24 hostname (onfig.py)[12999]: sync-ide.service: Failed at step EXE
 
 ## Impact
 
-The memory leak is causing:
+The memory leak causes:
 
 1. Extreme system sluggishness
 2. Unresponsive UI
